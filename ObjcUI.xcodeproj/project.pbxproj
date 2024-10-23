@@ -11,9 +11,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		33AD47392CC88E3D00F42C19 /* Exceptions for "ObjcUI" folder in "ObjcUI" target */ = {
+		33AD478C2CC8900E00F42C19 /* Exceptions for "ObjcUI" folder in "ObjcUI" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			publicHeaders = (
+				ObjcButton.h,
+				ObjcCard.h,
+				ObjcColumn.h,
+				ObjcList.h,
+				ObjcNavigator.h,
+				ObjcPadding.h,
+				ObjcRow.h,
+				ObjcSafeArea.h,
+				ObjcSizedBox.h,
+				ObjcSnackBar.h,
+				ObjcText.h,
+				ObjcTextField.h,
 				ObjcUI.h,
 			);
 			target = 33AD47312CC88E3D00F42C19 /* ObjcUI */;
@@ -24,7 +36,7 @@
 		33AD47342CC88E3D00F42C19 /* ObjcUI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				33AD47392CC88E3D00F42C19 /* Exceptions for "ObjcUI" folder in "ObjcUI" target */,
+				33AD478C2CC8900E00F42C19 /* Exceptions for "ObjcUI" folder in "ObjcUI" target */,
 			);
 			path = ObjcUI;
 			sourceTree = "<group>";
@@ -61,7 +73,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		33AD472D2CC88E3D00F42C19 /* Headers */ = {
+		33AD478B2CC8900E00F42C19 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,7 +87,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33AD473A2CC88E3D00F42C19 /* Build configuration list for PBXNativeTarget "ObjcUI" */;
 			buildPhases = (
-				33AD472D2CC88E3D00F42C19 /* Headers */,
+				33AD478B2CC8900E00F42C19 /* Headers */,
 				33AD472E2CC88E3D00F42C19 /* Sources */,
 				33AD472F2CC88E3D00F42C19 /* Frameworks */,
 				33AD47302CC88E3D00F42C19 /* Resources */,
@@ -116,7 +128,6 @@
 				Base,
 			);
 			mainGroup = 33AD47282CC88E3D00F42C19;
-			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 33AD47332CC88E3D00F42C19 /* Products */;
 			projectDirPath = "";
@@ -170,11 +181,13 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.ObjcUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -200,6 +213,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.ObjcUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
